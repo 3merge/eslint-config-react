@@ -1,2 +1,3 @@
 # eslint-config-react
-Importable ESLint configuration
+
+3merge styleguide for React projects. Integrates ESlint with prettier.
