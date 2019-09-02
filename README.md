@@ -1,3 +1,3 @@
-# eslint-config-react
+# ESlint React
 
-3merge styleguide for React projects. Integrates ESlint with prettier.
+3merge styleguide for React projects. Refer to [Airbnb](https://github.com/airbnb/javascript) for specifics.
