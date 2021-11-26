@@ -13,7 +13,6 @@ module.exports = {
     es6: true,
   },
   extends: [
-    "@rushstack/eslint-config/profile/web-app",
     "airbnb",
     "prettier",
     "plugin:mdx/recommended",
@@ -35,11 +34,13 @@ module.exports = {
     },
   },
   rules: {
+    "func-names": 0,
     "prettier/prettier": 1,
     "react/jsx-props-no-spreading": 0,
     "implicit-arrow-linebreak": 0,
     "linebreak-style": 0,
     "eol-last": 0,
+    "react/function-component-definition": 0,
     "function-paren-newline": 0,
     "max-classes-per-file": 0,
     "no-underscore-dangle": 0,
