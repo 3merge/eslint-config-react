@@ -22,6 +22,7 @@ module.exports = {
   ],
   plugins: ["react", "prettier", "module-resolver", "cypress"],
   parserOptions: {
+    parserOptions: { tsconfigRootDir: __dirname },
     ecmaVersion: 9,
     sourceType: "module",
     ecmaFeatures: {
