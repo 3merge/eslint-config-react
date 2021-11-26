@@ -5,19 +5,27 @@
   "repository": "https://github.com/3merge/eslint-config-react.git",
   "author": "Mike <mibberson@3merge.ca>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^6.3.0",
-    "eslint-plugin-flowtype": "^4.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "prettier": "^1.18.2"
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node-3merge": "^1.1.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-3merge": "^1.0.2",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-lerna": "^2.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-mdx": "^1.16.0",
+    "eslint-plugin-module-resolver": "^1.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.1.0"
+  "peerDependencies": {
+    "eslint": "^8.3.0",
+    "prettier": "^1.18.2"
   }
 }
