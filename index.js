@@ -1,3 +1,5 @@
+require("@rushstack/eslint-config/patch/modern-module-resolution");
+
 module.exports = {
   globals: {
     Atomics: "readonly",
@@ -11,9 +13,9 @@ module.exports = {
     es6: true,
   },
   extends: [
+    "@rushstack/eslint-config/profile/web-app",
     "airbnb",
     "prettier",
-    "prettier/react",
     "plugin:mdx/recommended",
     "plugin:cypress/recommended",
     "plugin:import/recommended",
