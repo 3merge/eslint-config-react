@@ -35,6 +35,7 @@ module.exports = {
   },
   rules: {
     "func-names": 0,
+    "no-restricted-exports": 0,
     "prettier/prettier": 1,
     "react/jsx-props-no-spreading": 0,
     "implicit-arrow-linebreak": 0,
